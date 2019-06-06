@@ -99,4 +99,4 @@ if (
 ```
 
 When this code runs in the browser, the Webpack runtime will handle the loading of the polyfill
-packages and then render our app. For a full explanation see <https://hackernoon.com/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758#29a8>.
+packages before rendering the app. For a full explanation see <https://hackernoon.com/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758#29a8>.
