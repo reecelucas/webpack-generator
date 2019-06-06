@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": {
+          "version": 3
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    // Transform object rest and spread to ES5
+    "@babel/plugin-proposal-object-rest-spread",
+    // Transform static class properties to ES5
+    "@babel/plugin-proposal-class-properties",
+    // Allow parsing of dynamic `import()` statements
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}
