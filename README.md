@@ -39,11 +39,13 @@ Make sure the following scripts are added to your `package.json`:
 
 ## Hot Module Replacement (HMR)
 
+To enable HMR for react, run the following:
+
 ```bash
 yarn add -D react-hot-loader
 ```
 
-Add the following to the end of your entry file:
+And add the following to the end of your entry file:
 
 ```js
 if (process.env.NODE_ENV !== "production" && module && (module as any).hot) {
