@@ -34,7 +34,7 @@ module.exports = async userOpts => {
       await writePackage({
         name: `${getDirName()}`,
         version: '1.0.0',
-        description: 'File created by wb-generate',
+        description: 'File created by wp-generate',
         main: `${userOpts.entryFile}`,
         license: 'ISC'
       });
